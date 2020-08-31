@@ -1,0 +1,29 @@
+nav{
+    // height:100vh;
+    position:absolute;
+    opacity:1;
+    z-index:1;
+    width:100%;
+    text-align:center;
+    background:rgba(31, 31, 32, 0.87);
+    padding:15px;
+    box-sizing:border-box;
+    ul{
+        margin:0;
+        padding:0;
+    }
+    span{
+        color:rgba(255, 255, 255, 0.226);
+    }
+.link{
+    text-decoration:none;
+    color:rgb(216, 216, 216);
+    font-size:9pt;
+    padding:10px 10px 10px 10px;
+    margin:0 10px 0 10px;
+    padding-bottom:5px;
+    &:hover{
+        color:rgb(63, 123, 179);
+    }
+}
+}

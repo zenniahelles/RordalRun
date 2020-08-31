@@ -1,0 +1,21 @@
+footer{
+    position:absolute;
+    opacity:1;
+    z-index:1;
+    width:100%;
+    text-align:center;
+    background:rgba(31, 31, 32, 0.884);
+    padding:15px;
+    box-sizing:border-box;
+    color:white;
+    font-weight:lighter;
+    font-size:9pt;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-left:10px;
+    padding-right:10px;
+    box-sizing:border-box;
+}

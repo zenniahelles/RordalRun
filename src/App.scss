@@ -1,0 +1,25 @@
+// .PageGrid{
+//   display:grid;
+//   grid-template-columns: 8fr 1fr;
+//   grid-template-areas: "Content Navigation";
+//   .Navigation{
+//     grid-area: Navigation;
+//     .Content{
+//       grid-area: Content;
+//     }
+//   }
+// }
+
+html{
+  position:relative;
+  min-height:100%;
+  }
+
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20pt;
+    border-bottom:1px solid rgba(43, 87, 129, 0.295);
+    color:rgb(43, 88, 129);
+    font-weight:normal;
+    padding-bottom:5px;
+}
