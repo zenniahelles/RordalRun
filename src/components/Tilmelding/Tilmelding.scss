@@ -1,0 +1,46 @@
+.Tilmelding{
+    width:100%;
+    padding-top:50px;
+    max-width:1280px;
+    margin:auto;
+    margin-bottom:100px;
+    label{
+        display:block;
+        padding:18px 0 5px 0;
+        color:rgb(43, 87, 129);
+    }
+    input, select{
+        padding:10px;
+        border-radius:3px;
+        text-decoration:none;
+        border:1px solid rgba(43, 87, 129, 0.548);
+        background:rgba(43, 87, 129, 0.096);
+        width:100%;
+        max-width:300px;
+    }
+    .gender{
+        
+        display:inline;
+        input{
+            width:15px;
+            padding:0;
+            margin:0;
+            margin-right:4px;
+        }
+        span{
+            margin-right:20px;
+        }
+    }
+    button{
+        text-decoration:none;
+        padding:10px 20px 10px 20px;
+        border-radius:3px;
+        width:100%;
+        max-width:150px;
+        display:block;
+        margin-top:20px;
+        background:rgb(43, 87, 129);
+        color:white;
+        border:none;
+    }
+}

@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Forside from './components/Forside/Forside';
 import Om from './components/Om/Om';
 import Navbar from './components/Navbar/Navbar';
-import Hoteller from './components/Hoteller/Hoteller';
+import Distancer from './components/Distancer/Distancer';
 import Login from './components/Login/Login';
-import Ratings from './components/Ratings/Ratings';
+import Tilmelding from './components/Tilmelding/Tilmelding';
 import Header from './components/Header/Header';
 import './App.scss'
 import Footer from './components/Footer/Footer';
+import Deltagerliste from './components/Deltagerliste/Deltagerliste';
 
 
 function App() {
@@ -43,15 +44,19 @@ function App() {
       <Switch>
     
       <Route path="/tilmelding">
-          <Ratings loginData={loginData} doFetch={doFetch}/>
+          <Tilmelding loginData={loginData} doFetch={doFetch}/>
         </Route>
 
       <Route path="/distancer">
-          <Hoteller doFetch={doFetch}/>
+          <Distancer doFetch={doFetch}/>
         </Route>
 
         <Route path="/om">
           <Om doFetch={doFetch}/>
+        </Route>
+        
+        <Route path="/deltagerliste">
+          <Deltagerliste doFetch={doFetch}/>
         </Route>
 
         <Route path="/login">

@@ -15,7 +15,10 @@ return(
             <span>|</span>
             <Link className="link" to="/tilmelding">TILMELDING</Link>
             <span>|</span>
+            <Link className="link" to="/deltagerliste">DELTAGERLISTE</Link>
+            <span>|</span>
             <Link className="link" to="/login">LOGIN</Link>
+            
         </ul>
     </nav>
 )

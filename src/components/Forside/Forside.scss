@@ -22,17 +22,22 @@
             border-radius:3px;
             margin-top:10px;
         }
+        .tilmeld{
+            width:80%;
+            background:rgb(43, 87, 129);
+            color:white;
+            border:none;
+            height:15%;
+            font-size:14pt;
+            padding:25px;
+            margin-top:25px;
+        }
         .RunGrid{
             display:grid;
             margin-top:40px;
             grid-template-columns: auto auto auto;
             grid-gap:80px;
-            button{
-                width:100%;
-                background:rgb(43, 87, 129);
-                color:white;
-                border:none;
-            }
+
         }
     }
 

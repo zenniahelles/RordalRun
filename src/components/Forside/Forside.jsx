@@ -37,6 +37,7 @@ return(
     dolor in reprehenderit in uienply.
     </p>
     <Link to="/om"><button>MERE INFO</button></Link>
+    <Link to="tilmelding"><button className="tilmeld">TILMELD DIG RØRDAL RUN 2020</button></Link>
     </article>
     <section className="Ruter">
     <h2>Ruter</h2>
@@ -52,7 +53,6 @@ aspernatur aut odit aut fugit, sed quia laudantium.</p>
                 <div key={index}>
                     <h2>{item.title}</h2>
                     <p>{item.description.slice(0,200)}...</p>
-                    <button>TILMELD</button>
                 </div>
                 )
             })}

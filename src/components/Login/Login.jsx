@@ -49,7 +49,12 @@ function Login(props){
 
     return (
         <section className="LoginSide">
-        {props.loginData.user_id && <h2>Du er nu logget ind</h2>}
+        {props.loginData.user_id && 
+        <>
+        <h2>Du er nu logget ind</h2>
+        <p>Se dine tilmeldte løb herunder:</p>
+        </>
+        }
          <form>
             {!props.loginData.user_id && 
             <>
