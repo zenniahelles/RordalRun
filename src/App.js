@@ -6,7 +6,6 @@ import Navbar from './components/Navbar/Navbar';
 import Distancer from './components/Distancer/Distancer';
 import Login from './components/Login/Login';
 import Tilmelding from './components/Tilmelding/Tilmelding';
-import Ratings from './components/Ratings/Ratings';
 import SideBar from './components/Sidebar/Sidebar';
 
 import './App.scss'
@@ -50,10 +49,6 @@ function App() {
       </div></div>
 
       <Switch>
-
-      <Route path="/ratings">
-          <Ratings loginData={loginData} doFetch={doFetch}/>
-        </Route>
     
       <Route path="/tilmelding">
           <Tilmelding loginData={loginData} doFetch={doFetch}/>
