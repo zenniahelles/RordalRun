@@ -4,7 +4,7 @@
     margin:auto;
     font-size:10pt;
     padding-top:50px;
-    margin-bottom:100px;
+    margin-bottom:200px;
     label{
         display:block;
         padding:18px 0 5px 0;
@@ -32,3 +32,27 @@
         border:none;
     }
 }
+
+.LoginHeader{
+    background:rgba(43, 87, 129, 0.849);
+    height:40vh;
+        h1{
+            position: absolute;
+            width:100%;
+            text-align:center;
+            top:100px;
+            font-weight:100;
+            font-size:3vw;
+            opacity:1;
+            z-index:1;
+            color:rgb(255, 255, 255);
+        }
+        img{
+        width:100%;
+        opacity:50%;
+        object-fit: cover;
+        object-position: 50% 92%;
+        height:100%;
+    
+    }
+    }

@@ -6,8 +6,11 @@ import Navbar from './components/Navbar/Navbar';
 import Distancer from './components/Distancer/Distancer';
 import Login from './components/Login/Login';
 import Tilmelding from './components/Tilmelding/Tilmelding';
-import Header from './components/Header/Header';
+import Ratings from './components/Ratings/Ratings';
+import SideBar from './components/Sidebar/Sidebar';
+
 import './App.scss'
+import './MediaQueries.scss'
 import Footer from './components/Footer/Footer';
 import Deltagerliste from './components/Deltagerliste/Deltagerliste';
 
@@ -40,8 +43,17 @@ function App() {
       <div className="PageGrid">
       <Navbar/>
       <div className="Content">
-      <Header/>
+
+      <div className="mobileMenu">
+      <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+      <div id="page-wrap">
+      </div></div>
+
       <Switch>
+
+      <Route path="/ratings">
+          <Ratings loginData={loginData} doFetch={doFetch}/>
+        </Route>
     
       <Route path="/tilmelding">
           <Tilmelding loginData={loginData} doFetch={doFetch}/>

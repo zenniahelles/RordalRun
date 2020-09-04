@@ -4,7 +4,7 @@
     margin:auto;
     font-size:10pt;
     padding-top:50px;
-    margin-bottom:100px;
+    margin-bottom:200px;
     h3{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size:14pt;
@@ -47,3 +47,26 @@
     }
 }
 
+.DistanceHeader{
+    background:rgb(43, 87, 129);
+    height:40vh;
+        h1{
+            position: absolute;
+            width:100%;
+            text-align:center;
+            top:100px;
+            font-weight:100;
+            font-size:3vw;
+            opacity:1;
+            z-index:1;
+            color:rgb(255, 255, 255);
+        }
+        img{
+        width:100%;
+        opacity:50%;
+        object-fit: cover;
+        object-position: 50% 30%;
+        height:100%;
+    
+    }
+    }

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Forside.scss'
+import '../Header/Header.scss'
+import Header from '../images/run1.jpg'
 
 function Forside(props) {
 
@@ -17,6 +19,13 @@ function Forside(props) {
     }, [])
 
 return(
+    <>
+
+    <div className="Header">
+    <h1>Rørdal Run 2020</h1>
+    <img src={ Header } alt="header"/>
+    </div>
+
     <div className="Forside">
     <section className="ForsideGrid">
     <article>
@@ -61,6 +70,7 @@ aspernatur aut odit aut fugit, sed quia laudantium.</p>
     </section>
     </section>
     </div>
+    </>
 )
 
 }

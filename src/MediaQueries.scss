@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1080px) {
+
+.Header, .DeltagerHeader, .DistanceHeader, .OmHeader, .LoginHeader, .TilmeldingHeader{
+    h1{
+        position: absolute;
+        width:100%;
+        text-align:center;
+        top:110px;
+        font-weight:100;
+        font-size:4vw;
+        opacity:1;
+        z-index:1;
+        color:rgb(255, 255, 255);
+    }
+}
+
+.Forside{
+    .ForsideGrid{
+        .RunGrid{
+                display:grid;
+                margin-top:20px;
+                grid-template-columns: auto;
+                grid-gap:0;
+        }
+    }
+}
+
+.Tilmelding{
+    .FormGrid{
+grid-template-columns: auto auto;
+margin:auto;
+width:100%;
+    }
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .Header, div.DeltagerHeader, .DistanceHeader, .OmHeader, .LoginHeader, .TilmeldingHeader{
+        h1{
+            position: absolute;
+            width:100%;
+            text-align:center;
+            top:70px;
+            font-weight:100;
+            font-size:8vw;
+            opacity:1;
+            z-index:1;
+            color:rgb(255, 255, 255);
+        }
+    }
+
+    .Navigation{
+        display:none;
+    }
+    .mobileMenu{
+        display:block;
+    }
+
+    .Forside{
+        .ForsideGrid{
+            grid-template-columns: auto;
+            .Ruter{
+                margin-left:0px;
+            }
+            button{
+                display:block;
+            }
+            .tilmeld{
+                margin:auto;
+                margin-top:30px;
+            }
+        }
+    }
+.Distancer{
+    .DistanceGrid{
+        display:grid;
+        text-align:center;
+        margin:auto;
+        grid-template-columns:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        .gridItem1{
+            margin-bottom:30px;
+            div{
+                display:inline-block;
+                padding-right:10px;
+            button{
+                background:white;
+                width:150px;
+                max-width:100%;
+                color:rgb(43, 88, 129);
+                border:1px solid rgba(43, 87, 129, 0.555);
+                text-decoration:none;
+                padding:10px 20px 10px 20px;
+                border-radius:3px;
+                margin-top:10px;
+                margin-bottom:15px;
+            }
+        }
+        }
+        .gridItem2{
+            padding-left:0;
+            box-sizing: border-box;
+            img{
+                width:100%;
+                object-fit:cover;
+                object-position:50% 30%;
+                height:50vh;
+            }
+        }
+    }
+}
+.Deltagerliste{
+    div{
+    .ResultsGrid{
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+    }
+}
+}
+
+.Tilmelding{
+    .FormGrid{
+grid-template-columns: auto;
+margin:auto;
+width:100%;
+text-align:center;
+button{
+    margin:auto;
+    margin-top:30px;
+}
+    }
+}
+}

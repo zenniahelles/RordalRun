@@ -1,12 +1,13 @@
-nav{
+.Navigation{
     // height:100vh;
     position:absolute;
     opacity:1;
     z-index:1;
     width:100%;
     text-align:center;
-    background:rgba(31, 31, 32, 0.87);
-    padding:15px;
+    background:rgba(28, 38, 48, 0.89);
+    padding:12px;
+    padding-top:8px;
     box-sizing:border-box;
     ul{
         margin:0;

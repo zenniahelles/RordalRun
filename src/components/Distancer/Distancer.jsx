@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Distancer.scss';
 import run2 from '../images/run2.jpg'
+import Header from '../images/run5.jpg'
 
 function Distancer(props) {
 
@@ -33,6 +34,13 @@ function Distancer(props) {
 
 
     return(
+
+        <>
+        <div className="DistanceHeader">
+        <h1>Distancer</h1>
+        <img src={ Header } alt="header"/>
+        </div>
+
         <div className="Distancer">
             <h2>Distancer</h2>
             <p>Rørdal Run er for alle. Derfor er det muligt både at løbe og gå på alle distancer i alle byer. Samtidig er der distancer helt ned til 1,6 km. Hvis du
@@ -58,6 +66,7 @@ vælger et løbeheat, fx 5 km - Run betyder det ikke, at du SKAL løbe hele veje
     </section>
 
         </div>
+        </>
     )
 }
 

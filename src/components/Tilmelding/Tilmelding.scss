@@ -1,9 +1,19 @@
 .Tilmelding{
-    width:100%;
-    padding-top:50px;
+    padding:20px;
     max-width:1280px;
     margin:auto;
-    margin-bottom:100px;
+    font-size:10pt;
+    padding-top:50px;
+    margin-bottom:200px;
+    .FormGrid{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding:20px;
+box-sizing:border-box;
+.comment{
+    height:40%;
+}
+   
     label{
         display:block;
         padding:18px 0 5px 0;
@@ -16,7 +26,7 @@
         border:1px solid rgba(43, 87, 129, 0.548);
         background:rgba(43, 87, 129, 0.096);
         width:100%;
-        max-width:300px;
+        max-width:280px;
     }
     .gender{
         
@@ -44,3 +54,27 @@
         border:none;
     }
 }
+}
+.TilmeldingHeader{
+    background:rgba(43, 87, 129, 0.849);
+    height:40vh;
+        h1{
+            position: absolute;
+            width:100%;
+            text-align:center;
+            top:100px;
+            font-weight:100;
+            font-size:3vw;
+            opacity:1;
+            z-index:1;
+            color:rgb(255, 255, 255);
+        }
+        img{
+        width:100%;
+        opacity:50%;
+        object-fit: cover;
+        object-position: 50% 18%;
+        height:100%;
+    
+    }
+    }

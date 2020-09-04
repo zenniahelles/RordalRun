@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Login.scss'
+import Header from '../images/run4.jpg'
 
 function Login(props){
 
@@ -48,13 +49,15 @@ function Login(props){
     console.log(token)
 
     return (
-        <section className="LoginSide">
-        {props.loginData.user_id && 
         <>
-        <h2>Du er nu logget ind</h2>
-        <p>Se dine tilmeldte løb herunder:</p>
-        </>
-        }
+        <div className="LoginHeader">
+        <h1>Login</h1>
+        <img src={ Header } alt="header"/>
+        </div>
+
+        <section className="LoginSide">
+        <h2>{props.loginData && props.loginData.username ? `Du er logget ind som ${props.loginData.username}`
+        : null}</h2>
          <form>
             {!props.loginData.user_id && 
             <>
@@ -71,6 +74,7 @@ function Login(props){
             
         </form>
         </section> 
+        </>
     )
 }
 
